@@ -1,7 +1,10 @@
-site_name:  Template site
+site_name: Template to fork for mkdocs-material
 theme:
   name: material
   palette:
     scheme: preference
     primary: teal
     accent: indigo
+nav:
+  - Home: index.md
+  - About: about.md
