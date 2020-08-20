@@ -7,6 +7,6 @@ theme:
     primary: teal
     accent: indigo
 nav:
-  - Home: ../README.md
+  - Home: home.md 
   - Template Reference: index.md
   - Template About: about.md
