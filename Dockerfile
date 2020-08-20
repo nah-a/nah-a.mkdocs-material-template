@@ -1,7 +1,5 @@
 FROM python:3.7
 
-RUN apt install git
-
 RUN pip install mkdocs-material && \
     mkdir -p /app/docs
 
@@ -13,6 +11,6 @@ RUN cd /app                     && \
 
 WORKDIR /app
 
-EXPOSE 8000
+EXPOSE 11001
 
 ENTRYPOINT ["mkdocs", "serve"]
