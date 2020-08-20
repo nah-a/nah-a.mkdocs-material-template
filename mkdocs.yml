@@ -1,4 +1,5 @@
-site_name: Template to fork for mkdocs-material
+site_name: Template mkdocs-material
+dev_addr: 0.0.0.0:11001
 theme:
   name: material
   palette:
@@ -6,5 +7,6 @@ theme:
     primary: teal
     accent: indigo
 nav:
-  - Home: index.md
-  - About: about.md
+  - Home: ../README.md
+  - Template Reference: index.md
+  - Template About: about.md
