@@ -1,5 +1,6 @@
 site_name: Template mkdocs-material
 dev_addr: 0.0.0.0:11001
+repo_url: https://github.com/nah-a/mkdocs-material-template/
 theme:
   name: material
   palette:
