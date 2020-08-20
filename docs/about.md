@@ -1,4 +1,0 @@
-# About
-
-An about section
-

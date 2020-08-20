@@ -7,6 +7,5 @@ theme:
     primary: teal
     accent: indigo
 nav:
-  - Home: home.md 
-  - Template Reference: index.md
-  - Template About: about.md
+  - Markdown Cheatsheet: cheatsheet.md 
+  - mkdocs-template Reference: index.md
