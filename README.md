@@ -29,8 +29,8 @@ ___
 - [x] mkdocs-material site configuration
 - [x] template Dockerfile 
 - [x] docker-compose configuration for local orchestration
-- [] custom top navigation bar to demonstrate extending templates
-- [] custom splash page to demonstrate overriding pages
+- [ ] custom top navigation bar to demonstrate extending templates
+- [ ] custom splash page to demonstrate overriding pages
 
 ___
 ## deploying
