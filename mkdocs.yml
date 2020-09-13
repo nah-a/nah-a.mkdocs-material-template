@@ -10,4 +10,5 @@ theme:
 nav:
   - Welcome to material-mkdocs: index.md
   - Some markdown cheat-sheets: cheatsheet.md 
-  - Docker security basics: docker-security.md
+  - A few deployment methods: deployment.md
+  - Securing a docker application: docker-security.md
