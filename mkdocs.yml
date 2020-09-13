@@ -8,5 +8,6 @@ theme:
     primary: teal
     accent: indigo
 nav:
-  - Markdown Cheatsheet: cheatsheet.md 
-  - mkdocs-template Reference: index.md
+  - Welcome to material-mkdocs: index.md
+  - Some markdown cheat-sheets: cheatsheet.md 
+  - Docker security basics: docker-security.md

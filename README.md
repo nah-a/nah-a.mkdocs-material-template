@@ -1,17 +1,17 @@
 # mkdocs-material-template
 ___
 ## purpose
-A template for the quick start setup for mkdocs-material to fork from to allow for an easy setup.  
-You can fork this template into any repository you want to create your own mkdocs-material site.  
-Once that's done, you should be able to build and deploy with docker & docker-compose.  
+A template to quick start mkdocs-material by simply forking.  
+You can fork this template into any repository you want to create your own mkdocs-material site, adding your own themes and styles.  
+Contains pre-requisites for building and deploying to many methods of hosting.  
 
 ___
-## simple setup
+## local setup
 
 ### prerequisites
 
-- Docker installed locally; Docker Desktop, a local VM with Docker, however you please
-- A command line terminal
+- Docker installed locally; Docker Desktop, a local VM with Docker
+- A terminal of some kind
 
 ### steps
 
@@ -29,12 +29,16 @@ ___
 - [x] mkdocs-material site configuration
 - [x] template Dockerfile 
 - [x] docker-compose configuration for local orchestration
-- [ ] custom top navigation bar to demonstrate extending templates
-- [ ] custom splash page to demonstrate overriding pages
+- [ ] top navigation bar to demonstrate extending templates
+- [ ] splash page 
 
 ___
 ## deploying
 
+### GitHub pages
+
+
+### Virtual machine
 
 ___
 ## contributors
