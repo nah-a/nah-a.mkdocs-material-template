@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   mkdocs-material-template:
+    container_name: mkdocs-site
     build: .
     image: mkdocs-material/template
     ports: 
