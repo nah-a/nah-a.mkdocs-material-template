@@ -5,4 +5,4 @@ services:
     image: mkdocs-material/template
     ports: 
       - "11001:11001"
-    restart: "on_failure"
+    restart: "on-failure"
