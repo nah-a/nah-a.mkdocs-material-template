@@ -60,5 +60,4 @@ nav:
   - Home: index.md
   - Notes:
     - Markdown cheat-sheets: cheatsheet.md 
-    - Deployment methods: deployment.md
     - Docker security tips: docker-security.md
