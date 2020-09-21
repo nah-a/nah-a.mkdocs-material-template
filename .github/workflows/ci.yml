@@ -1,7 +1,8 @@
 name: ci
 on:
   push: 
-    - master
+    branches:
+      - master
 
 # Environment
 env:
