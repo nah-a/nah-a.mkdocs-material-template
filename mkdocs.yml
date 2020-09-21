@@ -1,12 +1,21 @@
 site_name: Template mkdocs-material
 dev_addr: 0.0.0.0:11001
 repo_url: https://github.com/nah-a/mkdocs-material-template/
+
 theme:
   name: material
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+
+features:
+    - tabs
+
   palette:
     scheme: preference
     primary: teal
     accent: indigo
+
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.abbr
@@ -46,8 +55,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
 nav:
-  - Welcome to material-mkdocs: index.md
-  - Some markdown cheat-sheets: cheatsheet.md 
-  - A few deployment methods: deployment.md
-  - Securing a docker application: docker-security.md
+  - Home: index.md
+  - Notes:
+    - Markdown cheat-sheets: cheatsheet.md 
+    - Deployment methods: deployment.md
+    - Docker security tips: docker-security.md
