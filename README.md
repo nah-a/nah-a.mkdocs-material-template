@@ -29,7 +29,6 @@ ___
 - [x] mkdocs-material site configuration
 - [x] template Dockerfile 
 - [x] docker-compose configuration for local orchestration
-- [ ] top navigation bar to demonstrate extending templates
 - [ ] splash page 
 
 ___
