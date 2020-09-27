@@ -27,10 +27,11 @@ jobs:
 
       # Install theme and dependencies
       - run: |
-          pip install -r requirements.txt
+          pip install -r src/mkdocs-material-template/requirements.txt
 
       # Build documentation
       - run: |
+          cd src/mkdocs-material-template
           mkdocs gh-deploy --force
           mkdocs --version
 
