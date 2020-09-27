@@ -5,12 +5,12 @@ plugins {
 version '0.0.1'
 
 distributions {
-    main {
-        dist {
-	    baseName = 'mkdocs-material-template'
-	    contents {
-	        from 'mkdocs-material-template'
-	    }
+    dist {
+	baseName = 'mkdocs-material-template'
+	contents {
+	    from 'mkdocs-material-template'
 	}
     }
 }
+
+
